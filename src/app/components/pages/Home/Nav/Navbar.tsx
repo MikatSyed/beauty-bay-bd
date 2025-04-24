@@ -168,7 +168,7 @@ export function Navbar() {
     if (!data) return null
 
     return (
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4 py-4 ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {Object.entries(data).map(([category, items]: [string, any]) => (
             <div key={category} className="mb-4 ">
@@ -195,7 +195,7 @@ export function Navbar() {
 
   return (
     <nav className="relative z-50">
-      <div className="py-2">
+      <div className="py-3">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between lg:justify-start">
             <button className="text-black lg:hidden" onClick={toggleMobileMenu} aria-label="Toggle menu">

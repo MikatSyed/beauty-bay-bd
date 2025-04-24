@@ -9,7 +9,7 @@ import "swiper/css/navigation"
 
 const Slider = () => {
   return (
-    <div className="py-8">
+    <div className="">
       {/* Main Slider */}
       <Swiper
         modules={[Pagination, Navigation, Autoplay]}
@@ -25,7 +25,7 @@ const Slider = () => {
       >
         {/* First Slide with Text and Button */}
         <SwiperSlide>
-          <div className="relative w-full h-[500px]">
+          <div className="relative w-full h-[800px]">
             <img
               src="https://www.lookfantastic.com/images?url=https://static.thcdn.com/widgets/95-en/54/original-LF_CROP-1920x600-131054.jpg&format=webp&auto=avif&width=1366&fit=cover"
               alt="Slide 1"
@@ -47,7 +47,7 @@ const Slider = () => {
 
         {/* Second Slide with Text and Button */}
         <SwiperSlide>
-          <div className="relative w-full h-[500px]">
+          <div className="relative w-full h-[800px]">
             <img
               src="https://www.cultbeauty.co.uk/images?url=https://static.thcdn.com/widgets/257-en/41/original-3-1920x600-172741.jpg&format=webp&auto=avif&width=1366&fit=cover"
               alt="Slide 2"
@@ -69,11 +69,11 @@ const Slider = () => {
 
         {/* Third Slide (Original) */}
         <SwiperSlide>
-          <div className="relative w-full h-[500px]">
+          <div className="relative w-full h-[800px]">
             <img
               src="https://www.cultbeauty.co.uk/images?url=https://static.thcdn.com/widgets/257-en/59/original-HP_multi-cat_desktop-144859.jpg&format=webp&auto=avif&width=1366&fit=covers"
               alt="Slide 3"
-              className="w-full h-[500px] object-cover"
+              className="w-full h-[800px] object-cover"
             />
           
           </div>

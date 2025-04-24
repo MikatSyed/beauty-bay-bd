@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ["www.taupenotch.com.bd","media.ulta.com"],
+    domains: ["www.taupenotch.com.bd","media.ulta.com","fentybeauty.com"],
   },
 };
 
