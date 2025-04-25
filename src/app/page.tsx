@@ -1,4 +1,4 @@
-import MainNavbar from "./components/pages/Home/Nav/MainNavbae";
+import MainNavbar from "./components/pages/Main/MainNavbae";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';

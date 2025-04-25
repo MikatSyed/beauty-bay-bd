@@ -6,6 +6,7 @@
 body {
   background: #fff;
   overflow-x: hidden;
+  font-family: var(--font-playfair), serif;
 }
 
 /* global.css */
