@@ -499,7 +499,7 @@ export default function ProductCarousel() {
                     </div>
                   </div>
 
-                  <div className="flex-grow flex flex-col p-3">
+                  <div className="flex-grow flex flex-col py-3">
                     <div className="flex justify-between items-center mb-2">
                       <h4 className="text-sm font-semibold text-gray-700 font-heading">{product.brand}</h4>
                       <div className="flex items-center">
