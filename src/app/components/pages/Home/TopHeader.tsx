@@ -21,7 +21,7 @@ const TopHeader = () => {
               <FaSearch className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 cursor-pointer" />
             </div>
             <h1 className="text-center text-3xl font-bold text-gray-800 font-heading">
-              BEAUTY BAY BD
+              Beauty bay bd
             </h1>
           </div>
 

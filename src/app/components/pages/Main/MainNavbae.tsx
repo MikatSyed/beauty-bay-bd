@@ -12,6 +12,7 @@ import TestimonialSection from "../Home/Testimonial";
 import Tranding from "../Home/Tranding";
 import Brands from "../Home/Brands";
 import Blog from "../Home/Blog";
+import Footer from "../Home/Footer";
 
 const MainNavbar = async () => {
   return (
@@ -19,7 +20,7 @@ const MainNavbar = async () => {
       <PromoBar />
       <div className="bg-white shadow-sm sticky top-0 z-50 ">
         <TopHeader />
-        {/* <Navbar /> */}
+        <Navbar />
       </div>
       <Slider />
       <Categories />
@@ -32,6 +33,7 @@ const MainNavbar = async () => {
       <Brands/>
       <Blog/>
       {/* <TestimonialSection/> */}
+      <Footer/>
     </>
   );
 };
