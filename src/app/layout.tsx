@@ -11,11 +11,7 @@ const playfair = Playfair_Display({
   variable: "--font-playfair",
 })
 
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-montserrat",
-})
+
 
 
 export const metadata: Metadata = {
